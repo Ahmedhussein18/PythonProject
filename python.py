@@ -19,5 +19,6 @@ def resolve_dns():
         
 if __name__ == "__main__":
     while True:
+        print("edit")
         resolve_dns()
         time.sleep(RESOLVE_INTERVAL)
